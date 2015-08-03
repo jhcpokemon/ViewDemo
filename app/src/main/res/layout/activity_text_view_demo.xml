@@ -46,4 +46,11 @@
         android:layout_below="@+id/toggleButton"
         android:layout_alignParentStart="true">
     </Spinner>
+
+    <SeekBar
+        android:id="@+id/seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner"
+        android:progress="50" />
 </RelativeLayout>
